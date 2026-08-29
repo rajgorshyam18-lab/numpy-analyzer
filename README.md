@@ -100,19 +100,15 @@ The application can display:
 
 ## 📂 Project Structure
 
-    NumPy_Analyzer/
-    │
-    ├── NumPy_Analyzer.py
-    │
-    ├── analyzer/
-    │   ├── __init__.py
-    │   ├── array_operations.py
-    │   ├── math_operations.py
-    │   ├── search_sort_filter.py
-    │   └── statistics.py
-    │
-    ├── README.md
-    └── .gitignore
+ numpy-analyzer/
+├── NumPy_Analyzer.py
+├── README.md
+└── analyzer/
+    ├── __init__.py
+    ├── array_operations.py
+    ├── math_operations.py
+    ├── search_sort_filter.py
+    └── statistics.py 
 
 ---
 
