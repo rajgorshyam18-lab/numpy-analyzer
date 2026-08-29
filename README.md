@@ -1,28 +1,26 @@
 # 🧮 NumPy Analyzer
 
-## Python NumPy Data Analysis Toolkit
+## Python-Based Numerical Data Analysis Toolkit
 
-A Python-based NumPy Analyzer created to demonstrate the practical use of NumPy arrays, array manipulation, mathematical operations, searching, sorting, filtering, statistical analysis, modular programming, custom modules, and Python packages.
-
-The application provides a simple menu-driven console interface for performing numerical and data-analysis operations using NumPy.
+A clean, modular and menu-driven Python application built using NumPy for performing array management, mathematical operations, searching, sorting, filtering and statistical analysis.
 
 ---
 
 ## 🎯 Project Objective
 
-The main objective of this project is to understand and demonstrate:
+The main objective of this project is to demonstrate the practical use of NumPy and modular programming concepts through a structured command-line application.
 
-- NumPy arrays
+The project demonstrates:
+
+- NumPy arrays and array manipulation
 - 1D, 2D and 3D arrays
-- Array indexing and slicing
-- Array manipulation
+- Indexing and slicing
+- Combining and splitting arrays
 - Mathematical operations
-- Matrix operations
-- Searching and sorting
-- Filtering data
-- Aggregating and statistical functions
-- Custom Python modules
-- Python package creation and usage
+- Matrix multiplication
+- Searching, sorting and filtering
+- Aggregation and statistical functions
+- Python modules and packages
 - Object-Oriented Programming
 - Exception handling
 - Menu-driven programming
@@ -31,84 +29,71 @@ The main objective of this project is to understand and demonstrate:
 
 ## ✨ Features
 
-### 🔢 1. Array Management
+### 🔢 Array Management
 
-The Array Management section provides:
-
-- Create 1D NumPy array
-- Create 2D NumPy array
-- Create 3D NumPy array
-- Array indexing
+- Create 1D arrays
+- Create 2D arrays
+- Create 3D arrays
+- Indexing
 - 1D slicing
 - 2D slicing
 - Combine arrays
 - Split arrays
 
-### 🧮 2. Mathematical Operations
-
-The Mathematical Operations section provides:
+### 🧮 Mathematical Operations
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
-- Dot product
-- Matrix multiplication
+- Dot Product
+- Matrix Multiplication
 
-### 🔍 3. Search, Sort & Filter
+### 🔍 Search, Sort & Filter
 
-The Search, Sort & Filter section provides:
-
-- Search for a specific value
-- Sort array in ascending order
-- Sort array in descending order
+- Search for a value
+- Sort in ascending order
+- Sort in descending order
 - Filter values using conditions
 
-Supported filter conditions:
+Supported conditions:
 
-- `>`
-- `<`
-- `>=`
-- `<=`
-- `==`
-- `!=`
+`>` `<` `>=` `<=` `==` `!=`
 
-### 📊 4. Aggregating & Statistical Functions
-
-The Statistics section provides:
+### 📊 Statistical Operations
 
 - Sum
 - Mean
 - Median
-- Standard deviation
+- Standard Deviation
 - Variance
 - Minimum
 - Maximum
 - Percentile
-- Correlation coefficient
-- Display all statistics
+- Correlation Coefficient
+- Display All Statistics
 
-### 📐 5. Array Information
+### 📐 Array Information
 
-The application can display:
-
-- Current array
-- Number of dimensions
-- Array shape
+- Display current array
+- Display number of dimensions
+- Display array shape
 
 ---
 
 ## 📂 Project Structure
 
- numpy-analyzer/
+numpy-analyzer/
+│
 ├── NumPy_Analyzer.py
 ├── README.md
+│
 └── analyzer/
     ├── __init__.py
     ├── array_operations.py
     ├── math_operations.py
     ├── search_sort_filter.py
-    └── statistics.py 
+    └── statistics.py
 
 ---
 
@@ -116,26 +101,25 @@ The application can display:
 
 | File | Description |
 |---|---|
-| `NumPy_Analyzer.py` | Main program and menu-driven interface |
-| `analyzer/__init__.py` | Initializes the custom Python package |
-| `analyzer/array_operations.py` | Contains array creation, indexing, slicing, combining and splitting operations |
-| `analyzer/math_operations.py` | Contains mathematical and matrix operations |
-| `analyzer/search_sort_filter.py` | Contains searching, sorting and filtering operations |
-| `analyzer/statistics.py` | Contains aggregation and statistical functions |
+| `NumPy_Analyzer.py` | Main application and menu-driven interface |
 | `README.md` | Project documentation |
-| `.gitignore` | Prevents unnecessary generated files from being uploaded |
+| `analyzer/__init__.py` | Initializes the custom Python package |
+| `analyzer/array_operations.py` | Handles array creation, indexing, slicing, combining and splitting |
+| `analyzer/math_operations.py` | Handles mathematical and matrix operations |
+| `analyzer/search_sort_filter.py` | Handles searching, sorting and filtering |
+| `analyzer/statistics.py` | Handles aggregation and statistical calculations |
 
 ---
 
-## 🧩 Modules Used
+## 📦 Modules Used
 
-| Module / Library | Purpose |
+| Module | Purpose |
 |---|---|
 | `numpy` | Numerical computing and array operations |
-| `analyzer.array_operations` | Custom array operations |
-| `analyzer.math_operations` | Custom mathematical operations |
-| `analyzer.search_sort_filter` | Custom searching, sorting and filtering |
-| `analyzer.statistics` | Custom statistical operations |
+| `analyzer.array_operations` | Array creation and manipulation |
+| `analyzer.math_operations` | Mathematical calculations |
+| `analyzer.search_sort_filter` | Searching, sorting and filtering |
+| `analyzer.statistics` | Statistical and aggregation operations |
 
 ---
 
@@ -144,10 +128,10 @@ The application can display:
 - Python 3
 - NumPy
 - Object-Oriented Programming
-- Python Modules
+- Modular Programming
 - Python Packages
 - Exception Handling
-- Console / Menu-Driven Programming
+- Console / Menu-Driven Interface
 
 ---
 
@@ -155,17 +139,16 @@ The application can display:
 
 ### Python Concepts
 
-- Variables
-- Functions
-- Classes
-- Objects
+- Classes and Objects
 - Constructors
-- Class methods
-- Static methods
-- Conditional statements
+- Instance Methods
+- Class Methods
+- Static Methods
+- Functions
+- Conditional Statements
 - Loops
-- User input
-- Exception handling
+- User Input
+- Exception Handling
 - Modules
 - Packages
 - `__init__.py`
@@ -174,503 +157,239 @@ The application can display:
 ### NumPy Concepts
 
 - `np.array()`
+- Array dimensions
+- Array shape
 - 1D arrays
 - 2D arrays
 - 3D arrays
-- Array dimensions
-- Array shape
 - Indexing
 - Slicing
-- Mathematical operations
-- Dot product
-- Matrix multiplication
+- Array manipulation
+- Element-wise operations
+- Dot Product
+- Matrix Multiplication
 - Searching
 - Sorting
 - Filtering
 - Aggregation
-- Statistical functions
+- Statistical calculations
 
 ---
 
-## 📦 Requirements
-
-Before running the project, make sure Python 3 is installed.
-
-Required:
+## ⚙️ Requirements
 
 - Python 3.x
 - NumPy
+
+Install NumPy with:
+
+`pip install numpy`
 
 No other external libraries are required.
 
 ---
 
-## ⚙️ Installation
+## 🚀 How to Run
 
-### Step 1: Check Python
+### 1. Clone the Repository
 
-Open Command Prompt or Terminal and run:
+`git clone https://github.com/rajgorshyam18-lab/numpy-analyzer.git`
 
-    python --version
+### 2. Open the Project Folder
 
-### Step 2: Install NumPy
+`cd numpy-analyzer`
 
-Run:
+### 3. Install NumPy
 
-    pip install numpy
+`pip install numpy`
 
-To verify the installation:
+### 4. Run the Application
 
-    python -c "import numpy; print(numpy.__version__)"
+`python NumPy_Analyzer.py`
 
-### Step 3: Open the Project
+On Windows:
 
-Open the `NumPy_Analyzer` folder in VS Code.
-
-### Step 4: Open the Terminal
-
-Make sure the terminal is inside the project folder:
-
-    NumPy_Analyzer
+`py NumPy_Analyzer.py`
 
 ---
 
-## ▶️ How to Run
+## 🖥️ Main Menu
 
-Run the main Python file:
+The application provides the following options:
 
-    python NumPy_Analyzer.py
+1. Array Management
+2. Mathematical Operations
+3. Search, Sort & Filter
+4. Aggregating & Statistical Functions
+5. Display Current Array
+6. Exit
 
-On Windows, you can also use:
-
-    py NumPy_Analyzer.py
-
----
-
-## 📋 Main Menu
-
-When the program starts, it displays:
-
-    =======================================================
-                  NUMPY ANALYZER
-    =======================================================
-
-    1. Array Management
-    2. Mathematical Operations
-    3. Search, Sort & Filter
-    4. Aggregating & Statistical Functions
-    5. Display Current Array
-    6. Exit
-
-    Enter your choice:
-
-Enter the number of the required operation and follow the instructions shown by the program.
+Select the required option and follow the instructions displayed in the terminal.
 
 ---
 
 ## 🔢 Array Management
 
-### Create 1D Array
+The Array Management section provides:
 
-    --- Array Creation ---
-
-    1. Create 1D Array
-    2. Create 2D Array
-    3. Create 3D Array
-    4. Back
-
-    Enter your choice: 1
-
-    Enter elements separated by spaces:
-    10 20 30 40 50
-
-    Created 1D Array:
-    [10. 20. 30. 40. 50.]
-
-### Create 2D Array
-
-Example:
-
-    Enter number of rows:
-    2
-
-    Enter number of columns:
-    2
-
-    Enter 4 elements separated by spaces:
-    1 2 3 4
-
-    Created 2D Array:
-    [[1. 2.]
-     [3. 4.]]
-
-### Create 3D Array
-
-Example shape:
-
-    2 2 2
-
-The application accepts the required number of values and creates the array with the specified dimensions.
-
----
-
-## ✂️ Indexing & Slicing
-
-### Indexing
-
-For:
-
-    [10. 20. 30. 40. 50.]
-
-Enter:
-
-    2
-
-Output:
-
-    Selected element: 30.0
-
-### 1D Slicing
-
-Example:
-
-    Enter start index:
-    1
-
-    Enter end index:
-    4
-
-Output:
-
-    Sliced Array:
-    [20. 30. 40.]
-
-### 2D Slicing
-
-The application allows selecting a range of rows and columns from a 2D array.
-
----
-
-## 🔗 Combine & Split Arrays
-
-### Combine Arrays
-
-Two arrays can be entered and combined into a single array.
-
-### Split Current Array
-
-The current array can be divided into a specified number of sections.
+- 1D array creation
+- 2D array creation
+- 3D array creation
+- Indexing
+- 1D slicing
+- 2D slicing
+- Array combination
+- Array splitting
 
 ---
 
 ## 🧮 Mathematical Operations
 
-### Addition
+The Mathematical Operations section provides:
 
-    Enter values for Array 1:
-    10 20 30 40 50
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Dot Product
+- Matrix Multiplication
 
-    Enter values for Array 2:
-    1 2 3 4 5
+Example matrix multiplication result:
 
-    Result:
-    [11. 22. 33. 44. 55.]
-
-### Subtraction
-
-    Enter values for Array 1:
-    10 20 30 40 50
-
-    Enter values for Array 2:
-    1 2 3 4 5
-
-    Result:
-    [ 9. 18. 27. 36. 45.]
-
-### Multiplication
-
-    Enter values for Array 1:
-    10 20 30 40 50
-
-    Enter values for Array 2:
-    1 2 3 4 5
-
-    Result:
-    [ 10.  40.  90. 160. 250.]
-
-### Division
-
-    Enter values for Array 1:
-    10 20 30 40 50
-
-    Enter values for Array 2:
-    1 2 3 4 5
-
-    Result:
-    [10. 10. 10. 10. 10.]
-
-### Dot Product
-
-    Enter values for Array 1:
-    1 2 3
-
-    Enter values for Array 2:
-    4 5 6
-
-    Result:
-    32
-
-### Matrix Multiplication
-
-Example:
-
-    Enter rows of first matrix:
-    2
-
-    Enter columns of first matrix:
-    2
-
-    Enter rows of second matrix:
-    2
-
-    Enter columns of second matrix:
-    2
-
-    Enter 4 values for first matrix:
-    1 2 3 4
-
-    Enter 4 values for second matrix:
-    5 6 7 8
-
-Result:
-
-    [[19. 22.]
-     [43. 50.]]
+[[19. 22.]
+ [43. 50.]]
 
 ---
 
 ## 🔍 Search, Sort & Filter
 
-### Search Value
+The Search, Sort & Filter section provides:
 
-For the current array:
+- Value searching
+- Ascending sorting
+- Descending sorting
+- Conditional filtering
 
-    [10. 20. 30. 40. 50.]
+Example search result:
 
-Search:
-
-    Enter value to search:
-    30
-
-Output:
-
-    Value found at index: (array([2]),)
-
-### Sort Ascending
-
-    Ascending order:
-    [10. 20. 30. 40. 50.]
-
-### Sort Descending
-
-    Descending order:
-    [50. 40. 30. 20. 10.]
-
-### Filter Values
-
-Example:
-
-    Enter condition (>, <, >=, <=, ==, !=):
-    >
-
-    Enter value:
-    25
-
-Output:
-
-    Filtered values:
-    [30. 40. 50.]
+Value found at index: (array([2]),)
 
 ---
 
-## 📊 Statistical Operations
+## 📊 Statistical Analysis
 
-For the array:
+The Statistics section provides:
 
-    [10. 20. 30. 40. 50.]
+- Sum
+- Mean
+- Median
+- Standard Deviation
+- Variance
+- Minimum
+- Maximum
+- Percentile
+- Correlation Coefficient
+- Display All Statistics
 
-Example results:
-
-    Sum:
-    150.0
-
-    Mean:
-    30.0
-
-    Median:
-    30.0
-
-    Minimum:
-    10.0
-
-    Maximum:
-    50.0
-
-### Standard Deviation
-
-The application calculates the standard deviation of the current array using NumPy statistical functions.
-
-### Variance
-
-The application calculates the variance of the current array.
-
-### Percentile
-
-Example:
-
-    Enter percentile (0-100):
-    50
-
-Output:
-
-    50.0th Percentile:
-    30.0
-
-### Correlation Coefficient
-
-Example:
-
-    Enter values for first dataset:
-    1 2 3 4 5
-
-    Enter values for second dataset:
-    2 4 6 8 10
-
-Output:
-
-    Correlation Coefficient:
-    1.0
-
-### Display All Statistics
-
-The application can display all supported statistical results for the current array at once.
-
----
-
-## 🖥️ Current Array Information
-
-The application provides an option to display the current array along with its:
-
-- Number of dimensions
-- Shape
-
-Example:
-
-    Current Array:
-    [10. 20. 30. 40. 50.]
-
-    Dimensions: 1
-    Shape: (5,)
+These operations demonstrate practical NumPy-based data analysis.
 
 ---
 
 ## 🛡️ Error Handling
 
-The application includes input validation and exception handling for common errors such as:
+The application handles common input errors such as:
 
 - Invalid menu choices
 - Invalid numeric input
 - Incorrect number of array elements
-- Invalid array dimensions
+- Invalid dimensions
 - Invalid percentile values
 - Division by zero
 - Incompatible matrix dimensions
 - Invalid slicing input
-
-This helps make the application more reliable and user-friendly.
+- Mismatched dataset sizes
 
 ---
 
 ## 🏗️ Application Architecture
 
-The application follows a modular and object-oriented structure:
+The project follows a modular and object-oriented structure.
 
-    NumPy Analyzer
-           │
-           ▼
-    NumPy_Analyzer.py
-           │
-           ├── ArrayOperations
-           │
-           ├── MathOperations
-           │
-           ├── SearchSortFilter
-           │
-           └── Statistics
+The main `DataAnalytics` class connects the different operation modules:
 
-Each class is responsible for a specific group of operations, which makes the project easier to understand, maintain and extend.
+- `ArrayOperations`
+- `MathOperations`
+- `SearchSortFilter`
+- `Statistics`
+
+This separation keeps the code organized, reusable and easier to maintain.
 
 ---
 
-## 🔄 Program Flow
+## 🧪 Testing
 
-    Start
-      │
-      ▼
-    Create DataAnalytics Object
-      │
-      ▼
-    Display Main Menu
-      │
-      ├── Array Management
-      │      ├── Create Array
-      │      ├── Indexing & Slicing
-      │      └── Combine & Split
-      │
-      ├── Mathematical Operations
-      │      ├── Addition
-      │      ├── Subtraction
-      │      ├── Multiplication
-      │      ├── Division
-      │      ├── Dot Product
-      │      └── Matrix Multiplication
-      │
-      ├── Search, Sort & Filter
-      │
-      ├── Aggregating & Statistical Functions
-      │
-      ├── Display Current Array
-      │
-      └── Exit
-             │
-             ▼
-            End
+The following major features were tested through the console interface:
 
----
-
-## 📚 Learning Outcome
-
-This project provides practical experience with:
-
-**Python → NumPy → Arrays → Modules → Packages → OOP → Data Analysis → Statistics**
-
-The project demonstrates how a Python application can be divided into smaller reusable components while keeping the main program organized and easy to maintain.
+- 1D array creation
+- 2D array creation
+- 3D array creation
+- Indexing
+- 1D slicing
+- 2D slicing
+- Combining arrays
+- Splitting arrays
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Dot Product
+- Matrix Multiplication
+- Searching
+- Ascending Sorting
+- Descending Sorting
+- Filtering
+- Sum
+- Mean
+- Median
+- Standard Deviation
+- Variance
+- Minimum
+- Maximum
+- Percentile
+- Correlation Coefficient
+- Current Array Display
+- Program Exit
 
 ---
 
-## 🌍 Real-World Use Cases
+## 📸 Screenshots
 
-The concepts demonstrated in this project can be useful for:
+Screenshots demonstrating the application interface and output are included in the repository.
+
+They showcase:
+
+- Main menu
+- Array operations
+- Mathematical operations
+- Matrix multiplication
+- Search, sort and filter
+- Statistical operations
+
+---
+
+## 🌍 Real-World Applications
+
+The concepts demonstrated in this project can be applied to:
 
 - Numerical data processing
 - Basic data analysis
+- Scientific computing
 - Mathematical calculations
-- Array manipulation
-- Statistical calculations
+- Statistical analysis
 - Data filtering
 - Data sorting
-- Scientific computing fundamentals
-- Educational NumPy applications
+- Array-based data processing
+- Educational data analysis
 
 ---
 
@@ -678,94 +397,41 @@ The concepts demonstrated in this project can be useful for:
 
 Possible future enhancements include:
 
-- CSV file import and export
+- CSV import and export
 - Pandas integration
-- Matplotlib data visualization
+- Matplotlib visualization
 - Graphical User Interface
 - Advanced statistical functions
 - Multiple-condition filtering
-- Saving analysis results to files
-- Data visualization dashboards
+- Saving analysis results
+- Data visualization
 - Interactive data analysis
 
 ---
 
-## 🧹 Git & GitHub
+## 📚 Learning Outcome
 
-Generated Python cache files should not be uploaded to GitHub.
+This project provides practical experience with:
 
-Recommended `.gitignore`:
+Python → NumPy → Arrays → Modules → Packages → OOP → Data Analysis → Statistics
 
-    __pycache__/
-    *.pyc
-
-This keeps the repository clean and professional.
+It demonstrates how a Python application can be divided into reusable modules while keeping the main program organized, readable and maintainable.
 
 ---
 
-## 🧪 Testing Status
-
-The application has been tested successfully through the console interface.
-
-Verified operations include:
-
-- 1D array creation
-- 2D array creation
-- 3D array creation
-- Array indexing
-- 1D slicing
-- 2D slicing
-- Array combining
-- Array splitting
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Dot product
-- Matrix multiplication
-- Searching
-- Ascending sorting
-- Descending sorting
-- Filtering
-- Sum
-- Mean
-- Median
-- Standard deviation
-- Variance
-- Minimum
-- Maximum
-- Percentile
-- Correlation coefficient
-- Current array display
-- Program exit
-
-Verified example results:
-
-    Addition:
-    [11. 22. 33. 44. 55.]
-
-    Dot Product:
-    32
-
-    Matrix Multiplication:
-    [[19. 22.]
-     [43. 50.]]
-
----
-
-## 📌 Project Information
+## 📋 Project Information
 
 | Item | Details |
 |---|---|
 | Project Name | NumPy Analyzer |
-| Project Type | NumPy Data Analysis Toolkit |
+| Project Type | Numerical Data Analysis Toolkit |
 | Programming Language | Python 3 |
 | Main Library | NumPy |
 | Interface | Console / Menu-Driven |
 | Architecture | Modular & Object-Oriented |
 | Package | `analyzer` |
 | External Dependency | NumPy |
-| Status | Completed and Tested |
+| Status | Completed |
 
 ---
 
@@ -773,21 +439,10 @@ Verified example results:
 
 **Shyam Gor**
 
-Created for educational purposes to demonstrate:
-
-- NumPy
-- Modular programming
-- Python packages
-- Object-Oriented Programming
-- Array operations
-- Mathematical operations
-- Search, sort and filter
-- Statistical analysis
+Created for educational purposes to demonstrate NumPy, modular programming, packages, object-oriented programming and basic data analysis.
 
 ---
 
 ## 📄 License
 
-This project is created for educational purposes as part of a Python and NumPy programming project.
-
-You are free to study and modify the code for learning and academic purposes.
+This project is created for educational and academic purposes.
